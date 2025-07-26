@@ -69,7 +69,7 @@ with col1:
             </p>
         </div>
     """, unsafe_allow_html=True)
-    with open("notebooks/data_cleaning&formating.ipynb", "rb") as f:
+    with open("amazon/notebooks/data_cleaning&formating.ipynb", "rb") as f:
         st.download_button("See Code", f, file_name="amazon_cleaning_formating.ipynb", key="amazon_clean_download")
 
 # --- Dashboard Creation ---
@@ -83,7 +83,7 @@ with col2:
             </p>
         </div>
     """, unsafe_allow_html=True)
-    with open("files/data_visulization.pbix", "rb") as f:
+    with open("amazon/files/data_visulization.pbix", "rb") as f:
         st.download_button("See Dashboard", f, file_name="amazon_dashboard.pbix", key="amazon_dash_download")
 
 # --- Business Insights ---
@@ -95,7 +95,7 @@ with col3:
             <p style='color: #555; font-size: 20px;'>Delivered product, sentiment, and pricing insights to shape smarter product and retention strategy.</p>
         </div>
     """, unsafe_allow_html=True)
-    with open("notebooks/transform_analyze_data.ipynb", "rb") as f:
+    with open("amazon/notebooks/transform_analyze_data.ipynb", "rb") as f:
         st.download_button("See Code", f, file_name="amazon_transform_analyze_.ipynb", key="amazon_analyse_download")
 
 
@@ -110,7 +110,7 @@ with col4:
             </p>
         </div>
     """, unsafe_allow_html=True)
-    with open("files/data analysis presentation.pptx", "rb") as f:
+    with open("amazon/files/data analysis presentation.pptx", "rb") as f:
         st.download_button("See Presentation", f, file_name="amazon_data_analysis_presentation.pptx", key="amazon_story_download")
 
 st.markdown("<hr>", unsafe_allow_html=True)
@@ -143,7 +143,7 @@ Visualized in Power BI Dashboard:
 </p>
 """, unsafe_allow_html=True)
 
-st.image("images/amazon_dashboard.jpg", caption="Amazon Review Dashboard", use_column_width=True)
+st.image("images/amazon_dashboard.jpg", caption="Amazon Review Dashboard", use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 

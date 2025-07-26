@@ -143,7 +143,7 @@ Visualized in Power BI Dashboard:
 </p>
 """, unsafe_allow_html=True)
 
-st.image("images/amazon_dashboard.jpg", caption="Amazon Review Dashboard", use_container_width=True)
+st.image("amazon/images/amazon_dashboard.jpg", caption="Amazon Review Dashboard", use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
